@@ -107,3 +107,61 @@ a {
   width: 200px;
   margin: auto;
 }
+
+/* Partners */
+
+.partners {
+  padding-top: 136px;
+}
+
+.partners__wrappper {
+  padding-top: 96px;
+}
+
+/* Subscription */
+
+.subscription {
+  padding-top: 137px;
+}
+
+.subscription__h2 {
+  text-align: center;
+  color: var(--white);
+}
+
+.subscription-banner {
+  padding-top: 48px;
+  background: url("./assets/img/subscription-banner.jpg") center no-repeat;
+  padding-bottom: 18px;
+  border-radius: var(--base-radius);
+}
+
+.subscription-form {
+  padding-top: 95px;
+  width: 970px;
+  margin: auto;
+}
+
+.subscription-form__wrapper {
+  align-items: start;
+}
+
+.subscription-form__input {
+  padding: 20px;
+  border: none;
+  border-radius: var(--base-radius);
+  color: var(--black);
+}
+
+.subscription__p {
+  margin-top: 15px;
+  color: var(--white);
+}
+
+/* Footer */
+
+.footer {
+  margin-top: 114px;
+  background: var(--gray);
+  padding: 96px 0;
+}

@@ -12,7 +12,14 @@ export default function Catalog() {
           ))}
         </div>
         <div className="catalog-link">
-          <Link to="/catalog" className="button">
+          <Link
+            to="/catalog"
+            className="button"
+            style={{
+              background: "var(--black)",
+              color: "var(--white)",
+            }}
+          >
             Каталог
           </Link>
         </div>
