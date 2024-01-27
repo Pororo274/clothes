@@ -4,7 +4,7 @@ import { ButtonType } from "../../enums/ButtonType";
 interface ButtonProps {
   children: string;
   className?: string;
-  type: ButtonType;
+  type?: ButtonType;
 }
 
 export default function Button(props: ButtonProps) {

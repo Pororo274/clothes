@@ -27,3 +27,7 @@
 .catalog-button {
   margin-top: 34px;
 }
+
+.product__link:hover > .product__h3 {
+  color: blue;
+}
