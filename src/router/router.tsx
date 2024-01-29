@@ -3,6 +3,7 @@ import Home from "../views/home";
 import Catalog from "../views/catalog";
 import App from "../App";
 import Product from "../views/product";
+import { productLoader } from "./loaders/products-loader";
 
 export const router = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/products/:productId",
+        loader: productLoader,
         element: <Product />,
       },
     ],
