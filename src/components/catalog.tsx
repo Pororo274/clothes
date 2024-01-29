@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Product from "./product";
+import { products } from "../data/products";
 
 export default function Catalog() {
   return (
@@ -7,8 +8,8 @@ export default function Catalog() {
       <div className="container">
         <h2 className="h2">Каталог</h2>
         <div className="catalog-grid">
-          {[1, 2, 3].map((x) => (
-            <Product key={x} />
+          {products.slice(0, 3).map((x) => (
+            <Product key={x.id} product={x} />
           ))}
         </div>
         <div className="catalog-link">
