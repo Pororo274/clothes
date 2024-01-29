@@ -12,8 +12,8 @@ export default function Footer() {
           </figure>
           <FooterNav header="Навигация по сайту">
             <LiLink to="/catalog">Каталог</LiLink>
-            <LiLink to="/catalog">Популярные товары</LiLink>
-            <LiLink to="/catalog">Главная</LiLink>
+            <LiLink to="/">Популярные товары</LiLink>
+            <LiLink to="/">Главная</LiLink>
           </FooterNav>
           <FooterNav header="Помощь">
             <LiLink to="/catalog">Договор публичной оферты</LiLink>
@@ -21,7 +21,7 @@ export default function Footer() {
             <LiLink to="/catalog">Возврат товара</LiLink>
           </FooterNav>
           <FooterNav header="Контакты">
-            <LiLink to="/catalog">+7 956 758 65 65ы</LiLink>
+            <LiLink to="/catalog">+7 956 758 65 65</LiLink>
             <LiLink to="/catalog">clothes@gmail.com</LiLink>
             <LiLink to="/catalog">
               улица Мусы Джалиля, 14/10, Казань, Республика Татарстан
